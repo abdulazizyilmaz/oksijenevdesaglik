@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Oksijen Sağlık</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Oksijen Sağlık</h1>
+      <p>Evde Sağlık Hizmetlerinde Güvenilir Ortağınız</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="services">
+      <h2>Hizmetlerimiz</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Evde Serum Hizmeti</h3>
+          <p>Uzman hemşirelerimizle evinizde damar yolu açılması ve serum uygulaması.</p>
+        </div>
+        <div class="card">
+          <h3>Evde Bakım Hizmeti</h3>
+          <p>Yaşlı ve hasta bireyler için günlük yaşam desteği ve hijyen uygulamaları.</p>
+        </div>
+        <div class="card">
+          <h3>Evde Hemşirelik Hizmeti</h3>
+          <p>Enjeksiyon, pansuman, sonda değişimi gibi işlemler evinizde.</p>
+        </div>
+        <div class="card">
+          <h3>Evde Laboratuvar Hizmeti</h3>
+          <p>Kan alma, numune transferi ve tahlil hizmetleri.</p>
+        </div>
+        <div class="card">
+          <h3>Evde Yara Bakım Hizmeti</h3>
+          <p>Bası yarası, diyabetik ayak ve cerrahi sonrası pansuman uygulamaları.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <h2>Online Randevu Formu</h2>
+      <form class="appointment-form">
+        <label for="name">Adınız Soyadınız:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Telefon Numaranız:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="service">Hizmet Türü:</label>
+        <select id="service" name="service" required>
+          <option value="">Seçiniz</option>
+          <option>Evde Serum Hizmeti</option>
+          <option>Evde Bakım Hizmeti</option>
+          <option>Evde Hemşirelik Hizmeti</option>
+          <option>Evde Laboratuvar Hizmeti</option>
+          <option>Evde Yara Bakım Hizmeti</option>
+        </select>
+
+        <label for="date">Tarih:</label>
+        <input type="date" id="date" name="date" required>
+
+        <button type="submit" class="button">Randevu Talep Et</button>
+      </form>
+    </section>
+
+    <div class="contact">
+      <p>Telefon ile iletişim: <a href="tel:+905459055443">0545 905 5443</a></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Oksijen Sağlık. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>
