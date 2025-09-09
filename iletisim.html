@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletişim - Oksijen Sağlık</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="oksijen-logo.png" alt="Oksijen Sağlık Hizmetleri" class="logo">
+    <h1>İletişim</h1>
+  </header>
+  <nav>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="hizmetler.html">Hizmetler</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="iletisim.html">İletişim</a>
+  </nav>
+  <main>
+    <p><strong>Telefon:</strong> <a href="tel:+905459055443">0545 905 5443</a></p>
+    <p><strong>E-posta:</strong> oksijensaglikhizmetleri@gmail.com</p>
+
+    <h2>Randevu Formu</h2>
+    <form action="https://formspree.io/f/mzbldqoz" method="POST" class="form">
+      <label for="name">Ad Soyad:</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="phone">Telefon:</label>
+      <input type="tel" name="phone" id="phone" required>
+
+      <label for="service">Hizmet:</label>
+      <select name="service" id="service" required>
+        <option value="Serum">Evde Serum</option>
+        <option value="Bakım">Evde Bakım</option>
+        <option value="Hemşirelik">Evde Hemşirelik</option>
+        <option value="Laboratuvar">Evde Laboratuvar</option>
+        <option value="Yara">Evde Yara Bakımı</option>
+      </select>
+
+      <label for="message">Ek Mesaj:</label>
+      <textarea name="message" id="message" rows="4"></textarea>
+
+      <button type="submit" class="button">Gönder</button>
+    </form>
+  </main>
+  <footer>
+    <p>© 2025 Oksijen Sağlık Hizmetleri</p>
+  </footer>
+</body>
+</html>
